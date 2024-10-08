@@ -1,10 +1,10 @@
 :root {
     --text-color: #DBE4EF;
-    --card-front-color: #9e5214;
+    --card-front-color: #144480;
     --card-back-color: #00F4BF;
 }
 body{
-   background: url(history.jpg);
+   background: url(bg-desktop.webp);
     font-family: Bai Jamjuree;
     }
     #container{
@@ -57,22 +57,6 @@ body{
         font-weight: 700;
     }
     
-    .cartao:hover .cartao__conteudo{
-    transform: rotateY(180deg);
-        
-    }
-
-        .cartao__conteudo__pergunta,
-        .cartao__conteudo__resposta{
-        backface-visibility: hidden;
-        position: absolute;
-        height: 100%;
-        width: 100%;
-    }
-
-    .cartao__conteudo__resposta{
-    transform: rotateY(180deg);
-    }
     
     
     
